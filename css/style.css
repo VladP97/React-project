@@ -1,0 +1,352 @@
+.good-name {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    font-size: 18pt;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+.good-name:hover {
+    color: rgba(0, 0, 0, 0.75);
+    text-decoration: none;
+}
+
+.good-price {
+    font-size: 16pt;
+    padding-bottom: 10px;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+.good-price-description {
+    color: rgb(0, 0, 0);
+    font-size: 16pt;
+}
+
+.good-price:hover {
+    color: rgba(0, 0, 0, 0.75);
+    text-decoration: none;
+}
+
+.nav {
+    margin-left: 20px;
+    display: inline-block;
+    position: relative;
+}
+
+.autorize-form {
+    padding: 1% 4%;
+    left: 15%;
+    top: 100%;
+    background-color: #fff;
+    border: solid rgba(0, 0, 0, 0.3) 1px;
+    position: absolute;
+    border-radius: 5px;
+    display: none;
+    z-index: 2;
+}
+
+.reg-form > input {
+    display: block;
+    margin: 5px;
+    height: 40px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border: solid rgba(0, 0, 0, 0.3) 1px;
+}
+
+.reg-form > h1 {
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 18pt;
+}
+
+.reg-form > h2 {
+    margin-left: 5px;
+    font-size: 12pt;
+}
+
+.reg-form > p {
+    display: none;
+}
+
+.reg-form > input:last-of-type {
+    display: block;
+    margin: 5px;
+    margin-top: 15px;
+    height: 40px;
+    background-color: #9cc218;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    color: #fff;
+    width: 25%;
+}
+
+.autorize-form > input {
+    display: block;
+    margin: 5px;
+    height: 40px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border: solid rgba(0, 0, 0, 0.3) 1px;
+}
+
+.autorize-form > input:last-of-type {
+    display: block;
+    margin: 5px;
+    height: 40px;
+    background-color: #9cc218;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    color: #fff;
+    width: 95%;
+}
+
+h2 {
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: 4%;
+}
+
+.categories {
+    width: 20%;
+    padding-top: 1%;
+    border-radius: 6px;
+    border: solid rgba(0, 0, 0, 0.2) 2px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.link-text:hover {
+    text-decoration: none;
+}
+
+.main-content {
+    margin: 0px;
+    width: 80%;
+    float: right;
+    padding: 5%;
+    padding-top: 0px;
+    display: inline-block;
+}
+
+.goods {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container {
+    border-radius: 6px;
+    border: solid rgba(0, 0, 0, 0.2) 2px;
+    margin-bottom: 10px;
+    padding: 20px;
+    width: 35%;
+    text-align: left;
+    display: inline-block;
+    margin: 20px;
+}
+
+.container:hover {
+    border: solid rgba(0, 0, 0, 0.5) 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.fa-shopping-cart {
+    color: #fff;
+}
+
+.fa-shopping-cart:hover {
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+.goods-count {
+    text-align: center;
+    width: 14%;
+    border-radius: 100%;
+    background-color: rgb(24, 134, 175);
+    display: inline;
+    float: right;
+    color: rgb(0, 0, 0);
+}
+
+.cart {
+    float: right;
+    margin-right: 30px;
+    display: inline-block;
+    width: 17%;
+}
+
+.category-link {
+    margin-left: 4%;
+    margin-bottom: 4%;
+    border-radius: 6px;
+    border: solid rgba(0, 0, 0, 0.2) 1px;
+    padding: 2%;
+    width: 90%;
+    display: inline-block;
+    text-decoration: underline;
+    font-size: 12pt;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+}
+
+.category-link:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    border: solid rgba(0, 0, 0, 0.0) 1px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 12pt;
+}
+
+.page-numbers {
+    border: solid rgba(0, 0, 0, 0.3) 2px;
+    border-radius: 3px;
+    color: rgb(0, 0, 0);
+    width: 3%;
+    height: 4%;
+    margin: 1%;
+    font-weight: bold;
+    text-align: center;
+    align-self: center;
+    display: inline-block;
+}
+
+.page-numbers:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: solid rgba(0, 0, 0, 0) 2px;
+    color: #fff;
+}
+
+.page-numbers-active {
+    border: solid rgba(0, 0, 0, 0.3) 2px;
+    border-radius: 3px;
+    color: #fff;
+    background-color: rgb(0, 0, 0);
+    width: 3%;
+    height: 4%;
+    margin: 1%;
+    font-weight: bold;
+    text-align: center;
+    align-self: center;
+    display: inline-block;
+}
+
+.page-numbers-active:hover {
+    cursor: pointer;
+}
+
+.search-input {
+    display: inline;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+}
+
+.search-results {
+    position: absolute;
+    background-color: #fff;
+    z-index: 2;
+    width: 150%;
+    border: solid rgba(0, 0, 0, 0.3) 1px;
+    display: none;
+}
+
+.search-results > a >div {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.search-results > a > div > img {
+    width: 15%;
+    display: inline;
+}
+
+.search-results > a > div > img:first-of-type{
+    margin-top: 3%;
+}
+
+.search-results > a > div > p {
+    vertical-align: top;
+    width: 70%;
+    margin: 2%;
+    font-size: 10pt;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.search-results > a > div > hr {
+    margin-top: 3%;
+    margin-bottom: 0%;
+}
+
+.user-status {
+    margin-right: 5px;
+    vertical-align: top;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 160px;
+    padding: 3px;
+}
+
+.user-status > a > p {
+    vertical-align: top;
+    display: inline;
+    font-size: 12pt;
+    width: 140px;
+}
+
+.fa {
+    cursor: pointer;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.dropdown-menu > li {
+    cursor: pointer;
+}
+
+.cart-ID {
+    display: block;
+    margin: 5px;
+    height: 40px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border: solid rgba(0, 0, 0, 0.3) 1px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.cart-info {
+    display: inline;
+    margin: 5px;
+    height: 40px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border: solid rgba(0, 0, 0, 0.3) 1px;
+    margin-right: 3%;
+}
+
+.register {
+    display: none;
+}
+
+.register-log-em {
+    display: none;
+}
+
+.register-reg-suc {
+    display: none;
+}
+
+.login {
+    display: none;
+}

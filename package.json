@@ -1,0 +1,33 @@
+{
+  "name": "diploma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Vlad Potapov",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "bootstrap": "^3.3.7",
+    "express": "^4.15.2",
+    "mysql": "^2.13.0"
+  },
+  "dependencies": {
+    "auth0-js": "^8.7.0",
+    "body-parser": "^1.17.2",
+    "express-mysql-session": "^1.2.0",
+    "express-session": "^1.15.3",
+    "history": "^4.6.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-router": "^3.0.0",
+    "react-router-dom": "^4.0.0-beta.8"
+  }
+}
